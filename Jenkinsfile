@@ -4,6 +4,7 @@ pipeline {
         stage('Clone Git') {
             steps {
                 git clone 'https://github.com/Bimg-Brein42069/addition_jenkins'
+                cd addition_jenkins
             }
         }
         stage('Provide permissions') {
