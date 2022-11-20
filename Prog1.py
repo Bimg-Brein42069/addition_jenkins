@@ -1,3 +1,3 @@
-add(x,y){
+addn(x,y){
   return int(x+y);
 }
