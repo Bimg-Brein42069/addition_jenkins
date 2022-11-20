@@ -1,5 +1,4 @@
 #!/usr/bin/python3
 
-addn(x,y){
+def addn(x,y):
   return int(x+y);
-}
