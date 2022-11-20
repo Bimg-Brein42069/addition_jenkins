@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Git') {
             steps {
-                git 'https://github.com/Bimg-Brein42069/addition_jenkins'
+                git clone 'https://github.com/Bimg-Brein42069/addition_jenkins'
             }
         }
         stage('Provide permissions') {
