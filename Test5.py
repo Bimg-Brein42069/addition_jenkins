@@ -2,7 +2,7 @@
 import unittest
 from Prog1 import addn
 
-class TestSum(unittest.Testcase):
+class TestSum(unittest.TestCase):
     def test_list_int(self):
         x,y=2,2.5
         res = addn(x,y)
