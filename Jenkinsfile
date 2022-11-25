@@ -23,11 +23,7 @@ pipeline {
         }
         stage('Test Code') {
             steps {
-                sh "./Test1.py"
-                sh "./Test2.py"
-                sh "./Test3.py"
-                sh "./Test4.py"
-                sh "./Test5.py"
+                sh "./Test.py"
             }
         }
     } 
