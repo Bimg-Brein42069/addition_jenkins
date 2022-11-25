@@ -9,11 +9,7 @@ pipeline {
         stage('Provide permissions') {
             steps {
                 sh "chmod u+x Prog1.py"
-                sh "chmod u+x Test1.py"
-                sh "chmod u+x Test2.py"
-                sh "chmod u+x Test3.py"
-                sh "chmod u+x Test4.py"
-                sh "chmod u+x Test5.py"
+                sh "chmod u+x Test.py"
             }
         }
         stage('Build Code'){
@@ -23,11 +19,7 @@ pipeline {
         }
         stage('Test Code') {
             steps {
-                sh "./Test1.py"
-                sh "./Test2.py"
-                sh "./Test3.py"
-                sh "./Test4.py"
-                sh "./Test5.py"
+                sh "./Test.py"
             }
         }
     } 
